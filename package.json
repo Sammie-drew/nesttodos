@@ -1,8 +1,8 @@
 {
   "name": "nesttodoapp",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "todo app with nestjs",
+  "author": "sammie-drew",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {

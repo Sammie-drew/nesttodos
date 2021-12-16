@@ -8,7 +8,8 @@ async function bootstrap() {
   const logger = new Logger('bootsrap');
   const app = await NestFactory.create(AppModule);
 
-  const PORT = process.env.PORT || serverConfig.port;
+  const PORT: number =
+    parseInt(process.env.PORT) || parseInt(serverConfig.port);
   await app.listen(PORT);
   logger.log('Application listening on Port::' + PORT);
 }
